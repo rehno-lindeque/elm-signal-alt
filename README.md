@@ -1,9 +1,8 @@
 # Alternative prompt / defered signals
 This is an experimental package: I wanted to see what an alternative world would look like where Elm distinguished between defered signals (signals that start out "empty") and prompt signals (signals that are created with an initial value in the first position).
 
-Feedback and contributions are very welcome.
-
 ## Disclaimer
+
 This is an experiment - please don't use it in production. It's probably not very performant to use `foldl` on either prompt or defered signals right now since there is quite a lot of magic making this work...
 
 ## Usage
