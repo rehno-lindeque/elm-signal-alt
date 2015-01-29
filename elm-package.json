@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "summary": "Alternative prompt/defered Signals",
     "repository": "https://github.com/rehno-lindeque/elm-signal-alt.git",
     "license": "MIT",

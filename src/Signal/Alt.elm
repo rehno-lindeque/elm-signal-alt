@@ -1,5 +1,5 @@
 module Signal.Alt where
-{-| See [Signal.Prompt](http://package.elm-lang.org/packages/rehno-lindeque/elm-signal-alt/latest/Signal/Prompt) and [Signal.Defered](http://package.elm-lang.org/packages/rehno-lindeque/elm-signal-alt/latest/Signal/Defered) for detailed documentation.
+{-| See [Signal.Prompt](http://package.elm-lang.org/packages/rehno-lindeque/elm-signal-alt/latest/Signal-Prompt) and [Signal.Defered](http://package.elm-lang.org/packages/rehno-lindeque/elm-signal-alt/latest/Signal-Defered) for detailed documentation.
 
 #  Re-export prompt signal interface
 @docs Signal

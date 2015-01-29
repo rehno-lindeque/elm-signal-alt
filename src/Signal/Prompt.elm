@@ -1,18 +1,9 @@
 module Signal.Prompt where
-{-| Import this module as follows:
+{-| Prompt signals
 
-    import Signal.Alt as Signal
-    import Signal.Alt (Signal)
-    import Signal.Defered as Defered
-    import Mouse.Defered as Mouse
+@docs Signal
+@docs foldl
 
-    -- Produces a defered signal that looks like this: <1,2,3,4,5,...>
-    clicksCounter : Defered.Signal Int
-    clicksCounter = Defered.foldl (\c -> c + 1) 0 Mouse.clicks
-    
-    -- Produces a prompt signal that looks like this: <Nothing,Just "1",Just "2",Just "3",Just "4",Just "5",...>
-    displayedClicks : Signal Int
-    displayedClicks = Singal.prompt Nothing <| (Just << toString <~ clicksCounter)
 -}
 
 import Signal as Core
